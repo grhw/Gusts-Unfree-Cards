@@ -27,7 +27,7 @@ for category in os.listdir("src/jokers/"):
     if not jokers:
         continue
 
-    final_img = Image.new("RGBA", ((len(jokers) // 2) * 71, 95))
+    final_img = Image.new("RGBA", ((len(jokers)) * 71, 95))
     final.append(f"if Config.Jokers.{category} then\nUtils.atlas(\"{category}\")")
 
     for i, joker in enumerate(jokers):
