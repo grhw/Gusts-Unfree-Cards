@@ -1,5 +1,5 @@
 --[[
 
-The source code is available at https://github.com/grhw/Gusts-Unfre-Cards for easy reading.
+The source code is available at https://github.com/grhw/Gusts-Unfree-Cards for easy reading.
 
 ]]--
