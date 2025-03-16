@@ -2,7 +2,7 @@
 	"id": "gusts_unfree_cards",
 	"name": "Gust's Unfree Cards",
 	"author": ["guhw on discord"],
-	"description": "A bunch of cards I thought would be fun to add.",
+	"description": "A bunch of cards I thought would be fun to add.\nhttps://github.com/grhw/Gusts-Unfree-Cards/",
 	"prefix": "guc", 
 	"main_file": "main.lua",
 	"priority": 0,

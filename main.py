@@ -1,5 +1,6 @@
 from PIL import Image
 import shutil
+import json
 import os
 
 shutil.rmtree("generated/", ignore_errors=True)
@@ -85,3 +86,11 @@ with open("generated/build/main.lua", "w+") as f_main:
             f_after_config.read(),
             f_formatted.read()
         ]))
+
+os.makedirs("generated/temp/package/")
+print("Done. Packaging mod...")
+with open("src/config.json","r") as f:
+    v = json.loads(f.read())["version"]
+print("Version v" + v)
+shutil.copytree("generated/build/",f"generated/temp/package/GustsUnfreeCards-v{v}")
+os.system(f'cd ./generated/temp/package/ && zip -r "../../dist/GustsUnfreeCards-{v}.zip" ./')
