@@ -1,4 +1,5 @@
 local Utils = {}
+Utils.decks = {}
 
 function Utils.what_in_what_chance(id,what_in,what_chance)
     return pseudorandom("guc_"..id) < (what_in+(G.GAME.probabilities.normal-1))/what_chance
@@ -12,7 +13,7 @@ function Utils.create_deck(id,name,text,func)
         text = text
     }):register()
 
-    Utils[id] = func
+    Utils.decks[id] = func
 end
 
 function Utils.atlas(name)
