@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "SMODS"
+    ],
+    "Lua.diagnostics.globals": [
+        "SMODS",
+        "Utils",
+        "pseudorandom",
+        "G",
+        "add_joker",
+        "Event",
+        "Back"
+    ]
+}

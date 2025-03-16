@@ -1,0 +1,17 @@
+{
+	"id": "gusts_unfree_cards",
+	"name": "Gust's Unfree Cards",
+	"author": ["guhw on discord"],
+	"description": "A bunch of cards I thought would be fun to add.",
+	"prefix": "guc", 
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "FD96E7",
+	"badge_text_colour": "48007B",
+	"display_name": "Gust's UC",
+	"version": "1.0.0",
+	"dependencies": [
+		"Steamodded (>=1.*)",
+		"Lovely (>=0.6)"
+	]
+}
